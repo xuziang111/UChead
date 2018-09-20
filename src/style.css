@@ -1,7 +1,46 @@
+*{margin:0;padding:0;}
     body{
+        height:100vh;
+		background:#F2F2F2 url(./src/shadiao.jpg) no-repeat;
+		background-size:cover;
+    }
+    .hei{
+	       height:110vh;
+	       width:100%;
+	       background:rgba(0,0,0,0.4);       
+}
+    main{
+        width:100vw;
+        height:100vh;
         display:flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height:100vh;
+        position:absolute;
+        top:0;
+        left:0;
+        color:		#009ACD;
+
+    }
+    #UCheadmake{
+        padding:8px;
+        cursor: pointer;
+        border:1px solid red;
+        border-radius: 10px;
+        margin-top:10px; 
+        background-color: #EE9A00;  
+        border-color: #357ebd;  
+        color: #fff;  
+        -moz-border-radius: 10px;  
+        -webkit-border-radius: 10px;  
+        border-radius: 10px; /* future proofing */  
+        -khtml-border-radius: 10px; /* for old Konqueror browsers */  
+        text-align: center;  
+        vertical-align: middle;  
+        border: 1px solid transparent;  
+        font-weight: 900;  
+        font-size:125%  
+    }
+    #UChead{
+        margin-top:10px;
     }
